@@ -21,6 +21,15 @@ Deploy `dist/` to a static host. Vercel configuration is included. The build typ
 ## Controls
 A/D or arrows move, Space double jump, Shift dash, J melee, K magic, E interact, W/Up climb, Escape pause. Touch buttons appear below gameplay. Defeat each third level's boss to enter its portal. Gates open at nearby switches with E. Collect elevated crystals for higher star ratings.
 
+## Gameplay and progression upgrades
+- Daily challenge awards 50 persistent XP for the first level completion each local calendar day.
+- New explorer outfits are purchased once with coins and stay permanently unlocked.
+- Relics are awarded at level completion rather than when abandoning a run.
+- Attacks are directional and hit enemies in front of the explorer.
+- Game automatically pauses if the browser tab or window loses focus.
+- Pickups pulse without sliding away from their physics overlap zones.
+- The pull request runs a GitHub Actions TypeScript/Vite build check.
+
 ## Scope
 A complete compact campaign built around reusable platforming systems. Leaderboard is local to the browser, not online. Level layouts use deterministic procedural placement; each world has three increasingly long routes. Ice momentum, lava danger and a celestial gravity well vary traversal. Cosmetics are three earned outfit colors. Audio is synthesized interaction sound; no external soundtrack. Advanced swimming, dedicated wall-jump animation, deep NPC dialogue, separate bonus levels and extensive equipment customization are not included. Daily challenge is local and resets by date; XP is a displayed challenge award. Browser storage may be cleared by the browser. Exit returns to camp because web apps cannot reliably close their own tab.
 
